@@ -1,9 +1,15 @@
+import AllEmployee from "@/components/main-dashboard/allEmployee/AllEmployee";
+import MainDashboard from "@/components/main-dashboard/main-dashboard";
+import Navbar from "@/components/navbar/navbar";
 import Image from "next/image";
 
-export default function Home() {
+export default function Home({ children }) {
   return (
-    <main >
-     <h1>Hellw</h1>
+    <main>
+      <MainDashboard>
+        <AllEmployee />
+        {children}
+      </MainDashboard>
     </main>
   );
 }

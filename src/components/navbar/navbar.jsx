@@ -132,8 +132,13 @@ Only for Mobile menu
           <HamburgerMenu />
 
           {/* App logo is here */}
-          <Paper sx={{ display: { xs: "none", sm: "block" }, width: "100px" }}>
-            <Image src={appLogo} alt="app logo" />
+          <Paper
+            sx={{
+              display: { xs: "none", sm: "block" },
+              width: "100px",
+            }}
+          >
+            <Image className="h-full" src={appLogo} alt="app logo" />
           </Paper>
 
           {/* Search bar is here */}

@@ -1,0 +1,167 @@
+[
+  {
+    "_id": "65df64382b73bc77028170e4",
+    "img": "https://i.ibb.co/6gkjLmG/johnny-depp-dior.webp",
+    "name": "Jhonny depp",
+    "dob": "1994-06-28",
+    "position": "Database Administrator",
+    "department": "IT",
+    "status": "Remote",
+    "salary": "15000",
+    "number": "01651122337"
+  },
+  {
+    "_id": "65df64b02b73bc77028170e5",
+    "img": "https://i.ibb.co/cFZDdbc/steve.jpg",
+    "name": "Steve Roger",
+    "dob": "1994-11-03",
+    "position": "Project Manager",
+    "department": "Management",
+    "status": "Intern",
+    "salary": "8000",
+    "number": "01398765423"
+  },
+  {
+    "_id": "65df653a2b73bc77028170e6",
+    "img": "https://i.ibb.co/mzrG36T/chandler.jpg",
+    "name": "Chandler Bing",
+    "dob": "1991-03-22",
+    "position": "Chief Executive Officer (CEO)",
+    "department": "Management",
+    "status": "Full-Time",
+    "salary": "25000",
+    "number": "01398765423"
+  },
+  {
+    "_id": "65df65932b73bc77028170e7",
+    "img": "https://i.ibb.co/8mj4vDw/zoey.jpg",
+    "name": "Zoey Tribiani",
+    "dob": "1993-11-19",
+    "position": "Financial Analyst",
+    "department": "Finance",
+    "status": "Remote",
+    "salary": "23000",
+    "number": "01317840693"
+  },
+  {
+    "_id": "65df660a2b73bc77028170e8",
+    "img": "https://i.ibb.co/nnxDhmC/ross.jpg",
+    "name": "Ross Geller",
+    "dob": "1990-06-29",
+    "position": "Finance Manager",
+    "department": "Finance",
+    "status": "Full-Time",
+    "salary": "30000",
+    "number": "01398765423"
+  },
+  {
+    "_id": "65df67362b73bc77028170e9",
+    "img": "https://i.ibb.co/mHs4yCc/jon.jpg",
+    "name": "Jon Snow",
+    "dob": "1993-11-27",
+    "position": "Marketing Manager",
+    "department": "Marketing",
+    "status": "Remote",
+    "salary": "15000",
+    "number": "01398765423"
+  },
+  {
+    "_id": "65df67c02b73bc77028170ea",
+    "img": "https://i.ibb.co/m6Z4pMm/Henry.jpg",
+    "name": "Henry Cavil",
+    "dob": "1985-02-07",
+    "position": "Market Research Analyst",
+    "department": "Marketing",
+    "status": "Intern",
+    "salary": "28000",
+    "number": "01651122337"
+  },
+  {
+    "_id": "65df68aa2b73bc77028170eb",
+    "img": "https://i.ibb.co/KWsPJhS/robert.jpg",
+    "name": "Robert De Niro",
+    "dob": "1975-05-18",
+    "position": "HR Coordinator",
+    "department": "Marketing",
+    "status": "Full-Time",
+    "salary": "35000",
+    "number": "01651122337"
+  },
+  {
+    "_id": "65df69142b73bc77028170ec",
+    "img": "https://i.ibb.co/JzCQCt9/al.webp",
+    "name": "Al pacino",
+    "dob": "1960-11-11",
+    "position": "HR Manager",
+    "department": "HR",
+    "status": "Remote",
+    "salary": "21000",
+    "number": "01317840693"
+  },
+  {
+    "_id": "65df69bdb6bdb1b088e386b6",
+    "img": "https://i.ibb.co/d0ycMxW/di-caprio.webp",
+    "name": "Di Caprio",
+    "dob": "1985-09-18",
+    "position": "Sales Manager",
+    "department": "Sales",
+    "status": "Intern",
+    "salary": "6000",
+    "number": "01317840693"
+  },
+  {
+    "_id": "65df6b32942f26945ef8f6f4",
+    "img": "https://i.ibb.co/k39fQWS/tony.webp",
+    "name": "Tony Stark",
+    "dob": "2004-01-22",
+    "position": "Sales Support Specialist",
+    "department": "Sales",
+    "status": "Full-Time",
+    "salary": "23000",
+    "number": "01912958303"
+  },
+  {
+    "_id": "65df6c49ce7fec798cf703f7",
+    "img": "https://i.ibb.co/6tGTpFs/david.jpg",
+    "name": "David Miller",
+    "dob": "1987-06-11",
+    "position": "Sales Representative",
+    "department": "Sales",
+    "status": "Intern",
+    "salary": "8000",
+    "number": "01651122337"
+  },
+  {
+    "_id": "65df6cc1c7a4a6306b0ef921",
+    "img": "https://i.ibb.co/6tGTpFs/david.jpg",
+    "name": "Siam",
+    "dob": "2024-01-31",
+    "position": "Front-end Developer",
+    "department": "IT",
+    "status": "Remote",
+    "salary": "8000",
+    "number": "01317840693"
+  },
+  {
+    "_id": "65df70061d1f1b0c2b7783e6",
+    "img": "https://i.ibb.co/d0ycMxW/di-caprio.webp",
+    "name": "Sadik",
+    "dob": "2024-01-30",
+    "position": "Back-end Developer",
+    "department": "IT",
+    "status": "Intern",
+    "salary": "8000",
+    "number": "01317840693"
+  },
+  {
+    "_id": "65df70d2fd679c667072b6f6",
+    "img": "https://i.ibb.co/6tGTpFs/david.jpg",
+    "name": "Elvin Jadega",
+    "dob": "2007-02-28",
+    "position": "Sales Support Specialist",
+    "department": "Sales",
+    "status": "Intern",
+    "salary": "12000",
+    "number": "01715054920"
+  }
+]
