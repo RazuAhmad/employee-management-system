@@ -3,17 +3,10 @@
 import React from "react";
 import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
-import List from "@mui/material/List";
-import Divider from "@mui/material/Divider";
-import ListItem from "@mui/material/ListItem";
-import ListItemButton from "@mui/material/ListItemButton";
-import ListItemIcon from "@mui/material/ListItemIcon";
-import ListItemText from "@mui/material/ListItemText";
-import InboxIcon from "@mui/icons-material/MoveToInbox";
-import MailIcon from "@mui/icons-material/Mail";
-
 import Drawer from "@mui/material/Drawer";
 import Box from "@mui/material/Box";
+import SidebarMenuButton from "@/components/main-dashboard/sidebar/sidebarMenuButton/sidebarMenuButton";
+import Image from "next/image";
 
 function HamburgerMenu() {
   const [open, setOpen] = React.useState(false);
@@ -23,32 +16,42 @@ function HamburgerMenu() {
   };
 
   const DrawerList = (
-    <Box sx={{ width: 250 }} role="presentation" onClick={toggleDrawer(false)}>
-      <List>
-        {["Inbox", "Starred", "Send email", "Drafts"].map((text, index) => (
-          <ListItem key={text} disablePadding>
-            <ListItemButton>
-              <ListItemIcon>
-                {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-              </ListItemIcon>
-              <ListItemText primary={text} />
-            </ListItemButton>
-          </ListItem>
-        ))}
-      </List>
-      <Divider />
-      <List>
-        {["All mail", "Trash", "Spam"].map((text, index) => (
-          <ListItem key={text} disablePadding>
-            <ListItemButton>
-              <ListItemIcon>
-                {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-              </ListItemIcon>
-              <ListItemText primary={text} />
-            </ListItemButton>
-          </ListItem>
-        ))}
-      </List>
+    <Box
+      sx={{ width: "100%", paddingX: "10px" }}
+      role="presentation"
+      onClick={toggleDrawer(false)}
+    >
+      {/* dashboard button */}
+      <SidebarMenuButton
+        href="/"
+        buttonName="Dashboard"
+        className="bg-orange-500 text-white"
+        icon="material-symbols-light:dashboard-outline"
+      />
+
+      {/* Manage Employee button */}
+      <SidebarMenuButton
+        href="/"
+        buttonName="All Employee"
+        className="bg-slate-400 text-white border border-gray-950"
+        icon="mdi:analytics"
+      />
+
+      {/* Employee Leave records */}
+      <SidebarMenuButton
+        href="/employeeLeaveRecords"
+        buttonName="Leave Records"
+        className="bg-slate-400 text-white border border-gray-950"
+        icon="raphael:employee"
+      />
+
+      {/* Analytics button */}
+      <SidebarMenuButton
+        href="/analytics"
+        buttonName="Analytics"
+        className="bg-slate-400 text-white border border-gray-950"
+        icon="mdi:analytics"
+      />
     </Box>
   );
 
@@ -66,7 +69,7 @@ function HamburgerMenu() {
       </IconButton>
       <Drawer open={open} onClose={toggleDrawer(false)}>
         <Box
-          sx={{ width: 250 }}
+          sx={{ width: 250, paddingTop: "90px" }}
           role="presentation"
           onClick={toggleDrawer(false)}
         >
